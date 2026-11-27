@@ -1,95 +1,120 @@
 # Product Vision
 
-## Working title
-The Creative Intelligence Companion. The title is provisional.
-
-## The opportunity
-Creative and multidisciplinary groups often generate more ideas, questions and connections than they can capture or investigate during a conversation. Valuable thinking gets buried in notes, unresolved questions remain unresolved, and momentum is lost when the group has to stop and search for information.
-
-This project explores a meeting companion that is not simply a recorder or transcript generator, but a shared thinking and research partner that helps a group carry its ideas forward.
-
 ## Vision
-Build an open-source, voice-first companion for in-person and online creative meetings. It listens only during an explicitly started, consent-based session, remains quiet unless invited, and helps participants preserve, connect, investigate and develop their collective thinking.
+
+Build an independent creative workspace that helps an individual think, explore, research and develop ideas over time — supported by an AI companion that can participate through conversation, voice and visual tools.
+
+The product should feel like an extension of a person's creative process: a place where unfinished thoughts can live, projects can evolve, knowledge can accumulate and ideas can become tangible work.
 
 **Humans create. AI assists. Ideas move forward.**
 
-## The companion's role
-- Preserve important ideas, questions, references and decisions.
-- Organize discussion into a navigable structure as it develops.
-- Reveal relationships, themes, contradictions and unanswered questions.
-- Research factual or technical questions when a participant explicitly asks.
-- Return concise answers with traceable sources.
-- Help turn discussion into experiments, research tasks, responsibilities and next steps.
-- Maintain continuity between sessions with human review and correction.
+## Primary user
 
-It should not dominate the room, steer the group's creative direction, or make decisions on behalf of participants.
+The primary user is an individual creator, thinker, researcher or multidisciplinary practitioner. The product must be genuinely useful to one person before collaboration is introduced.
+
+Potential users include artists, designers, architects, writers, independent researchers, facilitators and people developing self-directed projects. These are intended audiences, not claims of existing adoption.
+
+## Product model
+
+The product is an independent workspace, not a chatbot attached to another platform and not a meeting recorder with a dashboard.
+
+- The individual owns and navigates their workspace.
+- Projects provide context and organisation for ongoing work.
+- The companion is available across the workspace, not confined to a single chat.
+- External tools are integrations that import context or perform approved actions.
+- Collaboration is optional and scoped to selected projects or items.
+
+## Three foundational decisions
+
+### 1. Individual-first
+
+A person can create projects, capture thoughts, ask questions, conduct research, maintain memory and produce outputs without inviting anyone else. Shared workspaces and collaboration are extensions of this personal foundation.
+
+### 2. Hybrid interface
+
+The experience combines:
+- A visual workspace for projects, notes, knowledge maps, tasks and deliverables.
+- A conversational interface for questions, reflection, research and instructions.
+- Voice interaction for hands-free capture and invited participation.
+- Contextual AI actions embedded in the project workflow.
+
+No single interaction mode should become a bottleneck. A user should be able to start with a voice note, continue in chat, inspect the result visually and turn it into a document.
+
+### 3. Layered memory
+
+Memory is separated into three conceptual layers:
+- **Personal memory:** private context, preferences, reflections and working notes belonging to the individual.
+- **Project memory:** context attached to a project, with access governed by project permissions. A project may be private or collaborative.
+- **Shared knowledge:** information deliberately made visible to collaborators or published into a shared project space.
+
+A private item must never become shared merely because it is relevant to a project or mentioned during a collaborative session. Moving or copying information between layers must be an explicit, inspectable action. Every item should retain provenance and visibility metadata.
+
+## The companion's role
+
+The companion helps users:
+- Capture and organise ideas, questions, observations and references.
+- Explore relationships, themes, contradictions and possibilities.
+- Recall relevant personal and project context.
+- Research questions when asked and preserve sources.
+- Reflect on progress and identify open questions.
+- Develop outlines, briefs, experiments, plans and creative directions.
+- Produce documents, presentations and other deliverables.
+- Prepare for and synthesise meetings when explicitly invited.
+
+It should not dominate the creative process, impose a direction, silently change project facts or make consequential decisions without approval.
 
 ## Interaction contract
 
-### Quiet by default
-The companion does not interrupt, offer unsolicited opinions or initiate conversation. It remains in the background until a participant explicitly addresses it.
+### Available, not intrusive
+The companion is available when invited. It does not interrupt, initiate unsolicited voice responses or record in the background.
 
-### Invited, focused responses
-When called, it responds to the request at hand. Responses should be concise in a live conversation. More detailed research can be available in the shared workspace.
+### Transparent
+Users can distinguish their own input, imported material, AI-generated suggestions, external research and confirmed decisions.
 
-### Transparent participation
-Participants must know when a session is active, what is being captured, and how to pause or stop it. Recording and transcription require explicit session start and participant consent.
-
-### Human ownership
-Ideas, interpretations and decisions belong to the people in the room. AI-generated suggestions and summaries must be distinguishable from participant statements.
+### User-directed memory
+Users can inspect what the system remembers, where it came from, who can see it and how to correct, move or delete it.
 
 ### Evidence and uncertainty
-Research should distinguish sourced facts, interpretation and uncertainty. References should be inspectable.
+Research outputs include inspectable sources and distinguish evidence from interpretation and speculation.
+
+### Reversible assistance
+AI-generated changes should be presented as drafts or proposals where practical. Users should be able to accept, edit or reject them.
 
 ## Core experience
-1. Prepare a project and session, explain capture and consent, and confirm participant agreement.
-2. Meet: capture conversation only while the session is active, with visible recording status.
-3. Structure ideas, questions, themes, references, disagreements and possible decisions.
-4. Invoke the companion to ask a question, request research or clarify the developing map.
-5. Explore and refine the evolving knowledge map.
-6. Synthesize key ideas, decisions, open questions, research leads, assigned tasks and next steps.
-7. Continue with relevant context in a later session, subject to human review.
 
-## Intended audiences
-- Creative teams and independent artists.
-- Designers, architects and multidisciplinary studios.
-- Researchers and exploratory working groups.
-- Educators, facilitators and learning communities.
-- Cultural organizations and collaborative communities.
-
-These are intended audiences, not claims of existing adoption.
+1. Create a personal workspace.
+2. Start a project with an intention, description and optional reference material.
+3. Capture thoughts through text, voice notes or an explicitly consented session.
+4. Ask the companion to organise, connect, question or research the material.
+5. Explore project knowledge through visual views and natural conversation.
+6. Create an output such as a brief, presentation, research note or plan.
+7. Review what should become durable project memory.
+8. Invite collaborators to selected projects or explicitly shared items when useful.
+9. Return later and continue with relevant, permission-appropriate context.
 
 ## Differentiation
-The project focuses on continuity of collective thinking rather than the transcript alone: conversation becomes structured knowledge; research is available on demand; the tool is intentionally quiet; outputs support the next phase of work; and the open-source core is intended to be adaptable.
+
+The product is centred on continuity of individual creative thinking. It should connect fragmented work without forcing users into a rigid project-management method. Its distinctive combination is:
+- A personal creative environment rather than a generic chat window.
+- A hybrid visual, conversational and voice experience.
+- Explicitly separated personal, project and shared memory.
+- Traceable relationships between ideas, sources, decisions and outputs.
+- On-demand research and creative production.
+- Integrations that serve the workspace rather than replace it.
 
 ## Initial product boundary
-The first prototype should demonstrate one scenario reliably: a small group in a room, one shared microphone, one explicitly consented session, a quiet assistant that can be invoked, an evolving structure of ideas, and a useful final synthesis.
 
-Online meeting integrations, advanced collaboration and broad integrations should follow only after this experience is validated.
-
-## First-prototype success criteria
-- Participants understand and control when capture is active.
-- A session can be started, paused, resumed and stopped.
-- Conversation can be transcribed with speaker attribution where feasible.
-- Participants can invoke the assistant without unsolicited speech.
-- The assistant can answer a research question with sources.
-- A structured summary distinguishes ideas, questions, decisions and action items.
-- Participants can correct or remove inaccurate extracted information.
+The first real product milestone is a useful single-user workspace with projects, structured items, persistent storage and a contextual companion interface. It does not require real-time audio, WhatsApp group participation or multi-user collaboration to prove its value.
 
 ## Non-goals
-- A general-purpose chatbot that constantly speaks.
-- A surveillance or passive recording system.
-- An automatic decision-maker or meeting chair.
-- A replacement for human facilitation or creative judgment.
-- A system that treats every AI inference as a confirmed group decision.
 
-## Open questions
-- Which invocation method works best: wake phrase, push-to-talk or physical control?
-- How should live transcription uncertainty be shown?
-- What is the right balance between live structuring and post-session processing?
-- Which speech services offer the best quality, cost and privacy trade-offs?
-- How should consent be represented in different group settings?
-- What data should persist by default, and for how long?
+- A generic chatbot with no durable project context.
+- A passive surveillance or always-recording system.
+- An automatic project manager that makes decisions for the user.
+- A social network or public community platform as the initial product.
+- A requirement to connect external services before the core workspace is useful.
+- Automatic sharing of private thoughts or personal memory.
 
 ## Guiding principle
-Never interrupt the creative flow. Never lose a valuable idea. Never leave a good question unresolved simply because nobody has time to investigate it.
+
+Protect the user's creative agency. Help them preserve what matters, see connections they may have missed, investigate what they do not yet know and turn their thinking into work — while keeping ownership and control in their hands.
