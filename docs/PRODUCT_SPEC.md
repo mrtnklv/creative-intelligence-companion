@@ -186,3 +186,8 @@ Validate through observed use rather than vanity metrics:
 ## 12. Product guardrail
 
 The companion should increase the user's ability to think and create, not increase dependence on the AI. The user owns the workspace, controls memory and sharing, and makes the creative decisions.
+
+
+## 13. Hybrid interface direction
+
+The notebook and visual studio are complementary views of the same underlying project knowledge. The visual studio is the distinctive creative surface; the notebook provides structure, search and precise editing. A companion panel remains available across views and shows which project and selected items are in context. See [UX Direction](UX_DIRECTION.md) for the detailed layout, interaction patterns and prototype acceptance criteria.
