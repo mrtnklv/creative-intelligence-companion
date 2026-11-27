@@ -49,6 +49,7 @@ The repository includes an early, self-contained browser prototype in `prototype
 
 - [Product vision](docs/PRODUCT_VISION.md)
 - [Product specification](docs/PRODUCT_SPEC.md)
+- [UX direction](docs/UX_DIRECTION.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Contributing](CONTRIBUTING.md)
