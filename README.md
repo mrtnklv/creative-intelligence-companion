@@ -17,21 +17,22 @@ Creative conversations generate ideas, questions and decisions that are easy to 
 - **Human-directed:** the tool supports group thinking; it does not make decisions for people.
 - **Open and modular:** the project aims to support interchangeable AI and speech services.
 
-## Intended experience
+## Current status
 
-1. Start a meeting session and make recording status visible to everyone.
-2. Capture and structure ideas, questions, connections and decisions as the conversation develops.
-3. Ask the companion to research a question or clarify a point.
-4. Explore an evolving map of the group's thinking.
-5. Finish with a synthesis of key ideas, decisions, open questions, research tasks and next steps.
+The repository now includes the first interactive browser prototype in `prototype/index.html`.
 
-## Initial scope
+The prototype supports:
+- Starting, pausing, resuming and ending a manual note-taking session.
+- Capturing ideas, questions, decisions, next steps and references.
+- Viewing a simple grouped connection map and live session synthesis.
+- Saving notes locally in the current browser.
+- Exporting session notes as Markdown.
 
-The first prototype will focus on a web-based room mode for in-person meetings, using a laptop or tablet and a shared microphone. Online meeting integrations can follow once the core experience works.
+**Important limitations:** this is an early UX prototype. It does not access the microphone, record audio, transcribe speech, call an AI model, perform web research, synchronize across devices or support multiple participants. Do not treat its session-start confirmation as consent to audio recording; no audio is captured.
 
-## Project status
+## Try the prototype
 
-Early-stage concept and architecture. The first milestone is a small, working prototype that demonstrates consent-based capture, useful transcription, on-demand voice interaction and a structured meeting summary.
+Open [the prototype source](prototype/index.html) and use GitHub's **Raw** view or download the file to run it locally in a modern browser. It is a self-contained HTML file and does not require a build step or external dependencies.
 
 ## Documentation
 
@@ -43,8 +44,10 @@ Early-stage concept and architecture. The first milestone is a small, working pr
 
 ## Privacy
 
-This project is being designed around informed consent, visible recording status, and clear pause and stop controls. Do not record people without their knowledge and consent. Detailed privacy and data-handling decisions will be documented before a production release.
+The prototype stores manually entered notes in browser local storage on the device where it is used. It does not send those notes to a server. Clearing browser storage may remove them. Future audio capture, cloud storage and AI services will require separate, explicit privacy and retention decisions.
+
+Do not record people without their knowledge and consent.
 
 ## License
 
-A license has not yet been selected. Until one is added, do not assume that the code is available for reuse, modification or redistribution.
+This project is licensed under the [MIT License](LICENSE).
