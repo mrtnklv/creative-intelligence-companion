@@ -6,9 +6,9 @@ This roadmap is an initial direction, not a delivery promise. Tasks should be re
 ## Phase 0 — Project foundation
 - [x] Create the public repository.
 - [x] Add the initial README.
-- [ ] Document the product vision.
-- [ ] Document the proposed architecture.
-- [ ] Establish contribution and security guidance.
+- [x] Document the product vision.
+- [x] Document the proposed architecture.
+- [x] Establish contribution and security guidance.
 - [ ] Choose an initial license after reviewing project goals.
 - [ ] Define first-prototype acceptance criteria.
 
