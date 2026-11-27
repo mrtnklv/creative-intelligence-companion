@@ -41,9 +41,19 @@ Information must not silently move from a private layer into a shared one. Each 
 
 ## Current status
 
-The repository includes an early, self-contained browser prototype in `prototype/index.html`. It demonstrates manual session capture, typed notes, a grouped view, a simple synthesis, local browser storage and Markdown export.
+The repository includes a self-contained browser prototype in `prototype/index.html`. It demonstrates the first hybrid workspace experience:
 
-**This is not yet the independent workspace described above.** The prototype does not yet provide accounts, persistent cloud projects, layered memory, AI, audio capture, transcription, integrations, synchronisation or multi-user permissions. The next product step is to evolve the prototype into an individual-first workspace foundation.
+- Workspace home and project creation.
+- Project overview, Notebook, Studio and Activity views.
+- Quick capture and typed project items.
+- Notebook search and type filters.
+- A draggable Studio canvas with manually created relationships.
+- A contextual Companion panel with Ask, Explore, Research, Create and Organise modes.
+- Local browser storage, with no account or server required.
+
+Open `prototype/index.html` in a modern browser to try it. Data stays in that browser on that device.
+
+**This is a UX prototype, not the production workspace.** The Companion panel is an interaction mockup and is not connected to an AI model. There is no authentication, cloud sync, server-side permission enforcement, real layered memory, audio capture, transcription, external integrations or multi-user collaboration.
 
 ## Documentation
 
