@@ -33,6 +33,9 @@ Milestone: a person can capture, review and export thoughts without AI or cloud 
 ## Phase 2 — Personal workspace foundation
 Goal: turn the prototype into a persistent, individual-first workspace.
 - [ ] Define the first information architecture and navigation.
+- [ ] Design the hybrid application shell: persistent navigation, project header and contextual companion panel.
+- [ ] Define Overview, Notebook, Studio and Activity project views.
+- [ ] Ensure Notebook and Studio operate on the same underlying knowledge items.
 - [ ] Build workspace home and project creation.
 - [ ] Add project overview and project-specific sections.
 - [ ] Add authentication and secure personal ownership.
